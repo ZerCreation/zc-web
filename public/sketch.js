@@ -1,12 +1,13 @@
-let squareColor;
-let wireTree;
+// let squareColor;
+// let wireTree;
 
 function preload() {
 	wireTree = loadModel('models/WireTree.obj');
 }
 
 function setup() {
-  createCanvas(800, 1000, WEBGL);
+  let canvas = createCanvas(650, 1000, WEBGL);
+  canvas.position(0, 50);
   normalMaterial();
   squareColor = color(255, 255, 255);
   /*

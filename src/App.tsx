@@ -1,10 +1,7 @@
-import React from 'react';
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link,
-  Outlet,
+  Route
 } from "react-router-dom";
 import './App.css';
 import About from './components/About';
