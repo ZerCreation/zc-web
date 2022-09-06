@@ -5,10 +5,8 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(116, 238, 136);
+  color: rgb(213, 212, 245);
   font-style: italic;
-  /* font-weight: bold; */
-  font-family: 'Verdana';
 }
 
 .App {
@@ -23,4 +21,8 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style-image: url('data/images/Arrow.png');
 }

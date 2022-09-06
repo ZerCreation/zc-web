@@ -1,14 +1,33 @@
 import React from 'react'
+import treeImage from '../data/images/WireTreeDetailed.png';
 
 export default function Home() {
+  const contentStyle = {
+    display: 'flex',
+    justifyContent: 'center'
+  };
+  const descriptionStyle = {
+    marginTop: 50,
+    textAlign: 'left',
+    lineHeight: '300%'
+  } as const;
+  const nameStyle = {
+    color: 'RoyalBlue',
+    fontStyle: 'italic'
+  };
+
   return (
     <>
-      <div>&#91; Zer Creation is still under construction &#93;</div>
-      <div style={{marginLeft: '35%', marginTop: 50, textAlign: 'left', lineHeight: '300%'}}>
-        <div><h2>Development Services</h2></div>
-        <div>Over 20 years of programming</div>
-        <div>Over 13 years of commercial programming</div>
-        <div>Developing international systems for world-wide companies like Viessmann, Volvo, etc.</div>
+      <div style={contentStyle}>
+        <img src={treeImage} />
+        <div style={descriptionStyle}>
+          <h2>Welcome to the <span style={nameStyle}>Zer Creation</span></h2>
+          <ul>
+            <li>Powerful programming services</li>
+            <li>Over 13 years of commercial programming and over 20 years of programming at all</li>
+            <li>Developing extensive systems for world-wide companies</li>
+          </ul>
+        </div>
       </div>
     </>
   )
