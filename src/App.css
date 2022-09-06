@@ -12,6 +12,9 @@ a {
 .App {
   text-align: center;
   color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @keyframes App-logo-spin {
@@ -25,4 +28,14 @@ a {
 
 ul {
   list-style-image: url('data/images/Arrow.png');
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 10px;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
 }

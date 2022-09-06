@@ -7,6 +7,7 @@ import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Ideas from "./components/Ideas";
 import Layout from './components/Layout';
 import NoPage from './components/NoPage';
 import Projects from './components/Projects';
@@ -21,6 +22,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="projects" element={<Projects />} />
             <Route path="technologies" element={<Technologies />} />
+            <Route path="ideas" element={<Ideas />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />
