@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <div style={contentStyle}>
-        <img src={treeImage} />
+        <img src={treeImage} alt='blue wired tree' />
         <div style={descriptionStyle}>
           <h2>Welcome to the <span style={nameStyle}>Zer Creation</span></h2>
           <ul>
