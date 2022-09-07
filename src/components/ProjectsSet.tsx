@@ -4,8 +4,8 @@ import { ProjectDetails } from '../models/project-details';
 import { ProjectsSourceProps } from '../models/projects-source-props';
 
 export default function ProjectsSet({ projectsSource, nameOfSet }: ProjectsSourceProps) {
-  const [detailsVisibility, setdetailsVisibility] = React.useState(false);
-  const handleClose = () => setdetailsVisibility(false);
+  const [detailsVisibility, setDetailsVisibility] = React.useState(false);
+  const handleClose = () => setDetailsVisibility(false);
   const [detailsItem, setDetailsItem] = useState<ProjectDetails>({} as ProjectDetails);
 
   const style = {
@@ -26,7 +26,7 @@ export default function ProjectsSet({ projectsSource, nameOfSet }: ProjectsSourc
     const project: (ProjectDetails | undefined) = projectsSource.find(project => project.title === title);
     if (!!project) {
       setDetailsItem(project as ProjectDetails);
-      setdetailsVisibility(true);
+      setDetailsVisibility(true);
     }
   }
 
