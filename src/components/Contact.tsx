@@ -16,7 +16,7 @@ export default function Contact() {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
-    margin: 'auto',
+    margin: '40px auto 0px auto',
     width: '40%',
     minHeight: 300
   } as const;

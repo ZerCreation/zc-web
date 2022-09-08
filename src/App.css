@@ -39,3 +39,10 @@ ul {
   flex-shrink: 0;
   text-align: center;
 }
+
+.main-text {
+  text-align: left;
+  width: 40%;
+  margin: 60px auto 0px auto;
+  line-height: 150%
+}

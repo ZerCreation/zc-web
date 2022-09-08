@@ -74,7 +74,25 @@ export class DataSource {
         timePeriod: '2014',
         rows: 1,
         cols: 1,
-      }, 
+      }, {
+        title: 'Siemens / Viessmann (services)',
+        imageName: 'Siemens.png',
+        platform: 'Web',
+        technologies: '.NET Framework; C#; ASP.NET Web API; AngularJS',
+        description: 'Implementing AngularJS/C# extensions for MES software running in factory environment.',
+        timePeriod: '2018',
+        rows: 1,
+        cols: 1,
+      }, {
+        title: 'Occhio / Fingo (services)',
+        imageName: 'Occhio.png',
+        platform: 'Windows',
+        technologies: 'Java; Spring Framework',
+        description: 'Extending product energy labels management software.',
+        timePeriod: '2016',
+        rows: 1,
+        cols: 1,
+      },
     ];
   }
 
