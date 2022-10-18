@@ -15,7 +15,10 @@ export default function Ideas() {
         </div>
         <h3>Current development state</h3>
         <div>
-          Smart contract and UI parts are almost ready. I plan to add some UI design and some unit tests.
+          During development, current state in Goerli testnet is available:<br/>
+          <div style={{fontSize: 30, textAlign: 'center', marginTop: 40, textDecoration: 'underline'}}>
+            <a href='https://web3ideas.z16.web.core.windows.net/'>Web3 Ideas</a>
+          </div>
         </div>
       </div>
     </>

@@ -12,13 +12,13 @@ export default function Technologies() {
         <h3>Current development scope</h3>
         <ul style={ listStyle }>
           <li>Solidity + EVM</li>
-          <li>ReactJS</li>
+          <li>ReactJS + TypeScript</li>
           <li>Rust</li>
         </ul>
         <h3>Strong background technologies</h3>
         <ul style={ listStyle }>
           <li>.NET Core/Framework C# ASP.NET Web API, WPF, WCF, WF</li>
-          <li>Angular, TypeScript</li>
+          <li>Angular + TypeScript</li>
           <li>MS SQL Server, MongoDB, MySQL, SQLite</li>
           <li>MS Azure</li>
           <li>TeamCity, Jenkins</li>
